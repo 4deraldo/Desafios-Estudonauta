@@ -14,7 +14,9 @@
   --fonte3: "Sriracha", cursive;
 }
 
+html,
 body {
+  min-height: 100vh;
   font-family: var(--fonte1);
   background-color: darkgrey;
 }
@@ -44,6 +46,7 @@ header {
 section {
   padding-top: 10vh;
   padding-bottom: 10vh;
+  padding-left: 30px;
   line-height: 2em;
   font-size: 3.5vh;
   background-color: white;
@@ -53,6 +56,10 @@ a {
   text-decoration: none;
   color: white;
   font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 #img1 {
@@ -70,7 +77,6 @@ a {
   padding: 30px;
 }
 .fundo {
-  margin: 30px;
   display: inline-block;
   color: white;
   background-color: rgba(0, 0, 0, 0.514);
