@@ -27,7 +27,7 @@ ul {
   right: 10px;
   list-style: none;
 
-  & li > img {
+  & img {
     width: 50px;
     border-radius: 50%;
     margin-bottom: 15px;
